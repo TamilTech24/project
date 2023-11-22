@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(nature.jpg);background-size: cover;
+}
+form{
+    width: 30rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,3);
+    border-top: 1px solid rgba(255,255,255,3);
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 4px;
+    margin-bottom: 6%;
+    opacity: .7;
+}
+lable{
+    font-size: 20px;
+    color: black;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 4% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:brown;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .8;
+}
+button{
+    width: 50%;
+    margin:5% auto;
+    color: black;
+    font-size: 15px;
+    opacity: 10;
+    background:  rgba(255,255,255,0.06);
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(19, 2, 2, 0.2);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    cursor: pointer;
+    
+}
+
+a{
+    font-size: 13px;
+    text-align: center;    
+}
